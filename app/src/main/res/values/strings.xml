@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Single Screen App</string>
+  <string name="starbucks">Starbucks coffee</string>
+  <string name="address">Nevsky 55, Sankt-Peterburg, 191025</string>
+  <string name="phone_number">+7 (812) 385-11-96</string>
+  <string name="daily">Daily: 07:30am-11:00pm</string>
+  <string name="site">https://www.starbucks.com/</string>
+  <string name="email">info@starbucks.com</string>
+</resources>
