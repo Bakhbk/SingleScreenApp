@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Dimensions For TextView Head name Starbucks -->
+  <dimen name="margin_right_text_view">16dp</dimen>
+  <dimen name="margin_left_text_view">16dp</dimen>
+  <dimen name="margin_top_text_view">16dp</dimen>
+  <dimen name="text_size_header">28sp</dimen>
+  <dimen name="padding_between_icon_and_text_view">8dp</dimen>
+  <dimen name="all_text_size">18sp</dimen>
+</resources>

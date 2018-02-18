@@ -5,148 +5,99 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:background="@color/colorAccent"
+  android:fillViewport="true"
   tools:context="com.example.android.singlescreenapp.MainActivity">
-<LinearLayout
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:orientation="vertical">
-  <ImageView
-    android:id="@+id/imageStarbucks"
-    android:layout_width="match_parent"
-    android:layout_height="200dp"
-    android:layout_weight="1"
-    android:contentDescription="@string/starbucks"
-    android:scaleType="centerCrop"
-    android:src="@drawable/starbucks"/>
 
   <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="5"
-    android:layout_below="@id/imageStarbucks"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="16dp"
-      android:layout_marginLeft="16dp"
-      android:layout_marginRight="16dp"
-      android:text="@string/starbucks"
-      android:textSize="28sp"
-      android:textAllCaps="true"
-      android:fontFamily="sans-serif-medium"
-      android:textStyle="bold"/>
+
+    <ImageView
+      android:id="@+id/imageStarbucks"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:layout_weight="1"
+      android:contentDescription="@string/starbucks"
+      android:scaleType="centerCrop"
+      android:src="@drawable/starbucks"/>
+
     <LinearLayout
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:paddingTop="16dp"
-      android:paddingLeft="16dp"
-      android:paddingRight="16dp"
-      android:orientation="horizontal">
+      android:layout_height="0dp"
+      android:layout_weight="5"
+      android:orientation="vertical">
 
-      <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginRight="8dp"
-        android:contentDescription="@string/address"
-        android:src="@drawable/location_image"/>
+      <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_text_view"
+        android:layout_marginLeft="@dimen/margin_left_text_view"
+        android:layout_marginRight="@dimen/margin_right_text_view"
+        android:text="@string/starbucks"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size_header"/>
 
       <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_text_view"
+        android:layout_marginLeft="@dimen/margin_left_text_view"
+        android:layout_marginRight="@dimen/margin_right_text_view"
+        android:drawablePadding="@dimen/padding_between_icon_and_text_view"
+        android:drawableStart="@drawable/location_image"
         android:text="@string/address"
-        android:textSize="18sp"/>
-    </LinearLayout>
-
-    <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:paddingTop="16dp"
-      android:paddingRight="16dp"
-      android:paddingLeft="16dp"
-      android:orientation="horizontal">
-
-      <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginRight="8dp"
-        android:src="@drawable/phone"
-        android:contentDescription="@string/phone_number"/>
+        android:textSize="@dimen/all_text_size"/>
 
       <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_text_view"
+        android:layout_marginLeft="@dimen/margin_left_text_view"
+        android:layout_marginRight="@dimen/margin_right_text_view"
+        android:drawablePadding="@dimen/padding_between_icon_and_text_view"
+        android:drawableStart="@drawable/phone"
         android:text="@string/phone_number"
-        android:textSize="18sp"/>
-    </LinearLayout>
-
-    <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:paddingTop="16dp"
-      android:paddingRight="16dp"
-      android:paddingLeft="16dp"
-      android:orientation="horizontal">
-
-      <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginRight="8dp"
-        android:src="@drawable/calendar"
-        android:contentDescription="@string/daily"/>
+        android:textSize="@dimen/all_text_size"/>
 
       <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_text_view"
+        android:layout_marginLeft="@dimen/margin_left_text_view"
+        android:layout_marginRight="@dimen/margin_right_text_view"
+        android:drawablePadding="@dimen/padding_between_icon_and_text_view"
+        android:drawableStart="@drawable/calendar"
         android:text="@string/daily"
-        android:textSize="18sp"/>
-    </LinearLayout>
-
-    <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:paddingTop="16dp"
-      android:paddingRight="16dp"
-      android:paddingLeft="16dp"
-      android:orientation="horizontal">
-
-      <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginRight="8dp"
-        android:src="@drawable/email_icon"
-        android:contentDescription="@string/daily"/>
+        android:textSize="@dimen/all_text_size"/>
 
       <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_text_view"
+        android:layout_marginLeft="@dimen/margin_left_text_view"
+        android:layout_marginRight="@dimen/margin_right_text_view"
+        android:drawablePadding="@dimen/padding_between_icon_and_text_view"
+        android:drawableStart="@drawable/email_icon"
         android:text="@string/email"
-        android:textSize="18sp"/>
-    </LinearLayout>
-
-    <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:paddingTop="16dp"
-      android:paddingRight="16dp"
-      android:paddingLeft="16dp"
-      android:orientation="horizontal">
-
-      <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginRight="8dp"
-        android:src="@drawable/web_icon"
-        android:contentDescription="@string/daily"/>
+        android:textSize="@dimen/all_text_size"/>
 
       <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_text_view"
+        android:layout_marginLeft="@dimen/margin_left_text_view"
+        android:layout_marginRight="@dimen/margin_right_text_view"
+        android:autoLink="web"
+        android:drawablePadding="@dimen/padding_between_icon_and_text_view"
+        android:drawableStart="@drawable/web_icon"
         android:text="@string/site"
-        android:textSize="18sp"/>
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="@dimen/all_text_size"/>
+
     </LinearLayout>
 
   </LinearLayout>
 
-</LinearLayout>
 </ScrollView>
