@@ -1,4 +1,5 @@
-# SingleScreenApp
+# Single Screen App - first project Android Basics Nanodegree by Google.
+In which it was required to create a business card application.
 
 The design includes:
 - Company name
@@ -8,6 +9,9 @@ Two or more other pieces of information, such as:
 - Business address
 - Description of business
 - Opening hours.
+
+# Single Screen App - первый проект Андроид Основы Nanodegree от Google.
+В котором требовалось создать приложение-визитку.
 
 Дизайн включает:
 - Наименование фирмы
