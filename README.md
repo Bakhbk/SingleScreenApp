@@ -4,6 +4,7 @@ In which it was required to create a business card application.
 The design includes:
 - Company name
 - One photo representing
+
 Two or more other pieces of information, such as:
 - Contact information for business (for example, phone number, e-mail address, website)
 - Business address
@@ -16,6 +17,7 @@ Two or more other pieces of information, such as:
 Дизайн включает:
 - Наименование фирмы
 - Одна фотография, представляющая 
+
 Две или несколько других частей информации, таких как:
 - Контактная информация для бизнеса (например, номер телефона, адрес электронной почты, веб-сайт)
 - Адрес бизнеса
